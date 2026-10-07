@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feature/tx-status-idempotent-retry",
+    "main",
+    "origin",
+    "task/rwa-integration-tests"
+  ],
+  "parent": {
+    "feature/tx-status-idempotent-retry": "main",
+    "main": null,
+    "origin": "main",
+    "task/rwa-integration-tests": "main"
+  },
+  "order": [
+    "main",
+    "feature/tx-status-idempotent-retry",
+    "origin",
+    "task/rwa-integration-tests"
+  ]
+}
